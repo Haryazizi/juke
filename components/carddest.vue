@@ -1,6 +1,6 @@
 <template>
-    <section class="mx-7">
-        <div class="flex flex-col gap-5 text-slate-700 mt-16 mb-40">
+    <section class="mx-20">
+        <div class="flex flex-col gap-5 text-slate-700 mt-20 mb-40">
             <div>
                 <h1 class="text-xl font-bold">Destinations Airbnb Plus à la Une</h1>
                 <p class="font-light">Voyages de plusieurs jours organisés par des experts locaux avec activités, repas et

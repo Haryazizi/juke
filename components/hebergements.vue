@@ -1,7 +1,7 @@
 <template>
-    <div class="mx-7">
-        <h2 class="font-bold text-4xl my-6">Hébergements Airbnb Plus</h2>
-        <span>Une sélection de logements vérifiés selon des critères de qualité et de design</span>
+    <div class="mx-20">
+        <h2 class="font-bold text-4xl my-16">Hébergements Airbnb Plus</h2>
+        <p class="font-light my-5">Une sélection de logements vérifiés selon des critères de qualité et de design</p>
         <div
           class="relative overflow-hidden rounded-lg bg-cover bg-no-repeat p-12 text-center"
           style="background-image: url('/img/bghb.png'); height: 400px">
