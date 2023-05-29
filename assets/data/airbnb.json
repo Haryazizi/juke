@@ -1,0 +1,365 @@
+{
+    "explore":[
+        {
+        "id": 1,
+        "name": "Logements",
+        "image": "img/exp1.png"
+        },
+        {
+        "id": 2,
+        "name": "Experiences",
+        "image": "img/exp2.png"
+        },
+        {
+        "id": 3,
+        "name": "Adventures",
+        "image": "img/exp3.png"
+        }
+    ],
+    "aven":[
+        {
+        "id": 1,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Cayman Islands",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/aven1.png",
+            "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+            },
+            "rating": "5.0",
+            "sold": 10
+        },
+        {
+        "id": 2,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Uruguay",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/aven2.png",
+            "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+            },
+            "rating": "5.0",
+            "sold": 10
+        },
+        {
+        "id": 3,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Iceland",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/aven3.png",
+        "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+        },
+        "rating": "5.0",
+        "sold": 10
+        },
+        {
+        "id": 4,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Mongolia",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/aven4.png",
+        "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+        },
+        "rating": "5.0",
+        "sold": 10
+        },
+        {
+        "id": 5,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Bahrain",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/aven5.png",
+        "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+        },
+        "rating": "5.0",
+        "sold": 10
+        },
+        {
+        "id": 6,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Bosnia and Herzegovina",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/aven6.png",
+            "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+            },
+            "rating": "5.0",
+            "sold": 10
+        }
+    ],
+    "logem":[
+        {
+        "id": 1,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Toledo",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/logem1.png",
+        "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+        },
+        "rating": "4.98",
+        "sold": 10
+        },
+        {
+        "id": 2,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Mesa",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/logem2.png",
+        "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+        },
+        "rating": "4.98",
+        "sold": 10
+        },
+        {
+        "id": 3,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Utica",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/logem3.png",
+            "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+            },
+            "rating": "4.98",
+            "sold": 10
+        },
+        {
+        "id": 4,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "South Bend",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/logem4.png",
+            "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+            },
+            "rating": "4.98",
+            "sold": 10
+          },
+        {
+        "id": 5,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Toledo",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/logem5.png",
+            "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+            },
+            "rating": "4.98",
+            "sold": 10
+          },
+        {
+        "id": 6,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Mesa",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/logem6.png",
+        "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+        },
+        "rating": "4.98",
+        "sold": 10
+        },
+        {
+        "id": 7,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Utica",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/logem7.png",
+        "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+        },
+        "rating": "4.98",
+        "sold": 10
+        },
+        {
+        "id": 8,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "South Bend",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/logem8.png",
+        "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+        },
+        "rating": "4.98",
+        "sold": 10
+        }
+    ],
+    "expe":[
+        {
+        "id": 1,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Cayman Islands",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/expe1.png",
+        "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+        },
+        "rating": "5.0",
+        "sold": 10
+        },
+        {
+        "id": 2,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Uruguay",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/expe2.png",
+        "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+        },
+        "rating": "5.0",
+        "sold": 10
+        },
+        {
+        "id": 3,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Iceland",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/expe3.png",
+            "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+            },
+            "rating": "5.0",
+            "sold": 10
+        },
+        {
+        "id": 4,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Mongolia",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/expe4.png",
+            "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+            },
+            "rating": "5.0",
+            "sold": 10
+        },
+        {
+        "id": 5,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Bahrain",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/expe5.png",
+            "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+            },
+            "rating": "5.0",
+            "sold": 10
+        },
+        {
+        "id": 6,
+        "name": "2 Nights PACKAGE All Inclusive",
+        "description": "Bosnia and Herzegovina",
+        "qty": 1,
+        "price": "À partir de 577€/personne - 3 jours",
+        "discount": "15%",
+        "image": "img/expe6.png",
+        "comments": {
+            "name": "@usera",
+            "comment": "enak",
+            "date": "19-05-2023"
+        },
+        "rating": "5.0",
+        "sold": 10
+        }
+      ],
+      "dest":[
+        {
+        "id": 1,
+        "name": "Plus de 200 séjours vérifiés",
+        "price": "À partir de 577€/personne - 3 jours",
+        "image": "img/ds1.png"
+        },
+        {
+        "id": 2,
+        "name": "Plus de 200 séjours vérifiés",
+        "price": "À partir de 577€/personne - 3 jours",
+        "image": "img/ds2.png"
+        },
+        {
+        "id": 3,
+        "name": "Plus de 200 séjours vérifiés",
+        "price": "À partir de 577€/personne - 3 jours",
+        "image": "img/ds3.png"
+        }
+      ]
+}
