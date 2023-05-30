@@ -19,9 +19,6 @@
                                 <div>
                                     <h2 class="text-[16px] text-start text-[#484848] font-bold mt-1">{{ item.title }}</h2>                                       
                                 </div>
-                                <!-- <div>
-                                    <h4 class="text-[10px] text-start text-[#767676] font-bold uppercase mt-[8px]">{{ item.description }}</h4>
-                                </div> -->
                                 <p class="text-[14px] text-start text-[#484848] font-bold">${{ item.price }}</p>
                                 <div class="flex gap-1 w-full font-bold mt-[8px]">
                                     <p class="text-[12px] text-start text-[#008489]">{{ item.rating }}</p>
