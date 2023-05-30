@@ -40,12 +40,21 @@
           </div>
         </section>
         
+        
+        
         <Cardex />
         <Hebergements />
         <Cardaven />
         <Cardlogem />
         <Cardexpe />
-        <Carddest />        
+        <Carddest />   
+        <div class="flex items-center justify-center">
+          <NuxtLink to="list">
+            <button class="bg-red-500 hover:bg-red-500 text-white font-bold py-2 px-9 rounded focus:outline-none focus:shadow-outline" type="button">
+              List Product
+            </button>
+          </NuxtLink>
+        </div>     
       </main>   
     </div>
 </template>

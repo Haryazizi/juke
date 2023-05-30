@@ -12,7 +12,7 @@
                             <h5 class="mb-2 text-xl font-medium">
                                 {{ item.name }}
                             </h5>
-                        </div>
+                        </div>                  
                     </div>
                 </div>
             </div>
