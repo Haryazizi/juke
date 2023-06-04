@@ -5,17 +5,27 @@ const { data: airbnb } = useFetch('https://dummyjson.com/products/' + id)
 
 <template>
     <section class="mx-20">
-        <div>
-            <NuxtLink to="/">
-                <button class="bg-blue-500 hover:bg-blue-700 text-white text-xs font-bold py-2 px-4 mb-[80px]">
-                Kembali
-                </button>
-            </NuxtLink>
-            <div class="det-img grid grid-cols-3 gap-[1px] w-full h-full rounded-[10px]">
-                <div v-for="(image, index) in airbnb.images" :key="index" class="">
+        <div class="pt-12">
+            <div class="pt-12 pb-12">
+                <NuxtLink onclick="window.history.go(-1); return false;">
+                    <button class="bg-red-500 hover:bg-red-500 text-white font-bold py-2 px-9 rounded focus:outline-none focus:shadow-outline" type="button">
+                    Kembali
+                    </button>
+                </NuxtLink>
+            </div>
+
+            <div>
+                    
+                <div class="grid lg:grid-cols-4 sm:grid-cols-2 content-start gap-y-2">
+                <div v-for="(image, index) in airbnb.images" :key="index" class="gw-[250px] h-[250px] object-cover aspect-square duration-1000 rounded-lg">
                     <img :src="image" class="object-cover object-top hover:scale-110 flex">
                 </div>
-                <div>
+                </div>
+            </div>
+            
+                    
+            <div>    
+                <div class="w-[450px] h-[450px] px-2">
                     <div>
                         <h2 class="text-5xl text-start text-[#484848] font-bold mt-9">{{ airbnb.title }}</h2>                                       
                     </div>

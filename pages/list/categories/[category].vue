@@ -1,25 +1,27 @@
+<script setup>
+const { category } = useRoute().params;
+const { data: airbnb } = await useFetch('https://dummyjson.com/products/category/'+ category)
+</script>
 <template>
-    <section class="mx-20 card">
-        <Category />
-        <div >
-            <!-- <div class="mb-[54px]">
-                <NuxtLink to="navbar/">
+    <section class="mx-20">
+        <Category />      
+        <div class="my-[44px]">
+            <div class="pt-14 pb-12">
+                <NuxtLink to="/list">
                     <button class="bg-red-500 hover:bg-red-500 text-white font-bold py-2 px-9 rounded focus:outline-none focus:shadow-outline" type="button">
-                        Kembali
+                    Kembali
                     </button>
                 </NuxtLink>
-            </div> -->
+            </div>
             
-        <div class="pt-5 pb-16 flex justify-center text-4xl font-bold mb-2">
-            <h1>List Product</h1>
-        </div>
-            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-9 gap-y-6">
+        <h1 class="mb-6 flex justify-center items-center text-4xl font-bold">{{ category.toUpperCase().split('-').join(' ')  }}</h1>
+            <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 gap-y-7">
                 <div class="bg-white w-[198px] h-full hover:scale-110" v-for="item in airbnb.products" :key="item.id">
-                    <NuxtLink :to="'/list/' + item.id">
+                    <NuxtLink :to="'list/' + item.id">
                         <div>
-                            <div>
+                            <NuxtLink :to="'/list/' + item.id">
                                 <img :src="item.thumbnail" alt="" class="w-[288px] h-[250px] object-cover object-top">
-                            </div>
+                            </NuxtLink>
                             <div>
                                 <div>
                                     <h2 class="text-[18px] text-start text-[#484848] font-bold mt-1">{{ item.title }}</h2>                                       
@@ -39,7 +41,3 @@
         </div> 
     </section>   
 </template>
-
-<script setup>
-const { data: airbnb } = await useFetch('https://dummyjson.com/products')
-</script>
