@@ -1,18 +1,10 @@
 <template>
     <section class="mx-20 card">
         <Category />
-        <div >
-            <!-- <div class="mb-[54px]">
-                <NuxtLink to="navbar/">
-                    <button class="bg-red-500 hover:bg-red-500 text-white font-bold py-2 px-9 rounded focus:outline-none focus:shadow-outline" type="button">
-                        Kembali
-                    </button>
-                </NuxtLink>
-            </div> -->
-            
-        <div class="pt-5 pb-16 flex justify-center text-4xl font-bold mb-2">
-            <h1>List Product</h1>
-        </div>
+        <div >            
+            <div class="pt-5 pb-16 flex justify-center text-4xl font-bold mb-2">
+                <h1>List Product</h1>
+            </div>
             <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-9 gap-y-6">
                 <div class="bg-white w-[198px] h-full hover:scale-110" v-for="item in airbnb.products" :key="item.id">
                     <NuxtLink :to="'/list/' + item.id">

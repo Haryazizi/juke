@@ -4,7 +4,7 @@ const { data: airbnb } = await useFetch('https://dummyjson.com/products/categori
 <template>
     <div>
     <div>
-        <p class="pt-12 pb-5 flex justify-center text-4xl font-bold">Product Categories</p>
+        <p class="pt-20 pb-5 flex justify-center text-4xl font-bold">Product Categories</p>
     </div>
     
     <Search />

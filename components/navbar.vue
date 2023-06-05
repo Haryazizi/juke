@@ -1,5 +1,5 @@
 <template>
-    <nav class="parallax fixed flex flex-row justify-between items-center w-full px-6 py-4 z-10 text-white">
+    <nav class="parallax fixed flex flex-row justify-between items-center w-full px-6 py-4 z-10 text-black">
         <NuxtLink to="/">
             <img class="w-[28.65px] h-[30.73px]" :src="navBrandSrc" alt="nav-brand">
         </NuxtLink>
@@ -43,7 +43,7 @@
                 <ul id="ddMenu"
                     class="absolute z-[2] w-[230px] font-normal text-slate-600 top-[64px] sm:right-10 right-0 bg-white p-5 visible rounded-lg">
                     <li class="mb-5 hover:text-slate-800 "><NuxtLink to="/login">Login</NuxtLink></li>
-                    <li class="pt-5 hover:text-slate-800 border-t"><NuxtLink to="/cart"><span><img src="/img/cart.svg" alt="" class="h-4 inline mb-1 mr-2"></span>My cart</NuxtLink></li>
+                    <li class="pt-5 hover:text-slate-800 border-t"><NuxtLink to="/list/cart"><span><img src="/img/cart.svg" alt="" class="h-4 inline mb-1 mr-2"></span>Keranjang Saya</NuxtLink></li>
                 </ul>
             </div>
         </div>                        
